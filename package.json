@@ -1,0 +1,50 @@
+{
+  "name": "wamu.tech",
+  "private": true,
+  "description": "Wamu Website",
+  "version": "0.1.0",
+  "author": "David Semakula <hello@davidsemakula.com>",
+  "dependencies": {
+    "@heroicons/react": "^2.0.11",
+    "gatsby": "^4.23.0",
+    "gatsby-plugin-client-side-redirect": "^1.1.0",
+    "gatsby-plugin-image": "^2.23.0",
+    "gatsby-plugin-manifest": "^4.23.0",
+    "gatsby-plugin-robots-txt": "^1.7.1",
+    "gatsby-plugin-sharp": "^4.23.0",
+    "gatsby-plugin-sitemap": "^5.23.1",
+    "gatsby-source-filesystem": "^4.23.0",
+    "gatsby-transformer-sharp": "^4.23.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^3.3.0",
+    "@types/react": "^18.0.21",
+    "autoprefixer": "^10.4.12",
+    "gatsby-plugin-postcss": "^5.23.0",
+    "postcss": "^8.4.16",
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.1.8"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wamu-tech/wamu-tech.github.io"
+  },
+  "bugs": {
+    "url": "https://github.com/wamu-tech/wamu-tech.github.io/issues"
+  }
+}
